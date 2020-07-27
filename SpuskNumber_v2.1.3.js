@@ -92,7 +92,7 @@ function myDisplayDialog() {
                     staticTexts.add({ staticLabel: "Отступ снизу:" });
                 }
                 with (dialogColumns.add()) {
-                    myOffsetBottomField = integerEditboxes.add({ editValue: 20, minWidth: 60 });
+                    myOffsetBottomField = integerEditboxes.add({ editValue: 35, minWidth: 60 });
                 }
             }
             //поле текста
